@@ -1,0 +1,23 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly FaceDetection, Version=0.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Struct FaceDetectDotNet.FaceInfo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Drawing.Rectangle, Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double roll : Public
+    Double pitch : Public
+    Double yaw : Public
+    Double score : Public
+    System.Drawing.Rectangle r : Public
+Class FaceDetectDotNet.DetectModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Detect(Bitmap): PrivateScope, Public, HideBySig
+    Detect(String): PrivateScope, Public, HideBySig

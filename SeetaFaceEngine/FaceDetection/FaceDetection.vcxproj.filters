@@ -60,5 +60,16 @@
     <ClCompile Include="src\fust.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="wrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wrapper.cli.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

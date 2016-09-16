@@ -31,6 +31,14 @@
 *.rar
 *.sdf
 *.bin
+*.obj
+*.log
+*.tlog
+*.lastbuildstate
+*.bi
+*.pdb
+*.cache
+
 # =========================
 # Operating System Files
 # =========================

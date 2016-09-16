@@ -19,8 +19,8 @@ This face recognition engine is developed by Visual Information Processing and L
 If you have any problem on SeetaFace Engine, please contact us by sending email to SeetaFace@vipl.ict.ac.cn.
 
 As for SeetaFace Engine.NET, contact inlmouse@hotmail.com directly.
-### Other Documentation
 
-* [SeetaFace Detection](./FaceDetection/README.md)
-* [SeetaFace Alignment](./FaceAlignment/README.md)
-* [SeetaFace Identification](./FaceIdentification/README.md)
+### TODO
+- ~~Wrap FaceDetection~~
+- Wrap FacAlignment
+- Wrap FaceIdentification
